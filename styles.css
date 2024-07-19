@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    display: flex;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    float: left;
+}
