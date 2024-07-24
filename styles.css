@@ -1,15 +1,139 @@
+/* Elements are in order from top to bottom*/
 body{
     height: 100vh;
-    font-family: Roboto, sans-serif;
+    font-family: Georgia, serif;    
     display: flex;
-
+    flex-direction: column;
+    background-color: #000000;
+    color: #F4DFC8;
+    text-align: center;
+    text-wrap: wrap;
 }
 
-.header{
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    color: #000000;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+/*Start of Header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+img.walkingMan {
+    height: 15em;
+    width: 50%;
+    border-style: hidden;
+    margin-left: 40px;
+    opacity: 75%;
+}
+
+.nav-bar {
+    font-size: 30px;
+    display: flex;
+    width: 1347px;
+    justify-content: space-around;
+    margin-bottom: -2em;
+}
+
+li a:hover .nav{
+    background-color: #e9d1b9;
+  }
+
+li.nav {
+    background: bisque;
+    border-style: double;
+    border-color: black;
+}
+
+h1{
+    font-size: 60px;
+}
+
+/*End of header*/
+
+/*Start of Marketing*/
+.Marketing {
+    display: flex;
+    font-size: 2em;
+    text-wrap: balance;
+    margin-bottom: 2em;
+}
+/*End of Marketing*/
+
+/*Start of Seasonal Specials*/
+.Seasonal {
+    font-size: 5em;
+    color: #000000;
+}
+
+.SS {
+    background-color: #F4EAE0;
+    opacity: 65%;
+}
+
+.Drinks {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(45deg, black, transparent);
+}
+
+.Special {
+    display: flex;
+    flex-direction: column;
+    margin: 5em;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+img.specialD {
+    border-radius: 50%;
+    height: 15em;
+    width: 15em;
+}
+
+.imgTxt {
+    font-size: 25px;
+}
+/*End of Seasonal Specials*/
+
+/*Start of Quote*/
+.Quote {
+    display: flex;
+    font-size: 3em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+/*End of Quote*/
+
+/*Start of Footer*/
+.footer {
     display: flex;
     justify-content: space-between;
 }
 
-ul{
-    float: left;
+a.footL {
+    color: #F4DFC8;
 }
+/*End of Footer*/
